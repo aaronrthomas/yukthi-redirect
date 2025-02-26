@@ -94,7 +94,7 @@ def ctf_redirect():
 
 @app.route('/pinnacle')
 def pinnacle_redirect():
-    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfO8D-D6EWOyp6nL3iAlGi-b3Hj76LLxdlQtFyw3QdkEHgtcw/viewform?usp=sharing", code=302)
+    return redirect("https://forms.gle/ZXEZJpXcDGcdgP1KA", code=302)
 
 @app.route('/blind')
 def blind_redirect():
